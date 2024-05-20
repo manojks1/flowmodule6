@@ -5,7 +5,7 @@ This example demonstrates the process of minting non-fungible tokens (NFTs) in C
 
 ## Description
 
-This program, written in Cadence, serves as a straightforward contract that enables users to mint Non-Fungible Tokens (NFTs). Initially, it establishes a collection within the account address specified by the owner. Subsequently, the program prompts the user for input, including details such as address, username, lucky number, favorite food, and more. Using this input, the contract proceeds to mint a unique NFT, allowing for the creation of personalized and distinct tokens on the Flow blockchain.
+This Cadence program is a straightforward contract that allows users to mint Non-Fungible Tokens (NFTs) on the Flow blockchain. It first sets up a collection within the owner's specified account address. Then, the program collects user input, including details such as address, username, lucky number, favorite food, and more. Using this input, the contract mints a unique NFT, enabling the creation of personalized and distinct tokens.
 
 ## Requirements
 
