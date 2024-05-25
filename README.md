@@ -22,13 +22,13 @@ To use this code to mint your own NFTs on the Flow blockchain, follow these step
 
 1)Clone this repository to your local machine.
 
-2)Open the nft-mint.cdc file in your code editor or IDE.
+2)Open the mint nft.cdc file in your code editor or IDE.
 
 3)Modify the metadata dictionary to include the metadata for your NFTs, such as the name, description, and image URL.
 
-4)Modify the mintNFT function to specify the total number of NFTs you want to mint and the price of each NFT.
+4)Modify the mint NFT function to specify the total number of NFTs you want to mint and the price of each NFT.
 
-5)Save the nft-mint.cdc file.
+5)Save the mint nft.cdc file.
 
 6)Open a terminal window and navigate to the directory where you cloned this repository.
 
@@ -36,7 +36,7 @@ To use this code to mint your own NFTs on the Flow blockchain, follow these step
 flow project deploy
 
 8)Once the contract is deployed, run the following command to mint your NFTs:
-flow transactions send ./transactions/mintNFT.cdc
+flow transactions send ./transactions/mint NFT.cdc
 
 9)Enter your Flow account credentials when prompted.
 
